@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyStore - Awesome E-commerce</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>MyStore</h1>
+            <div class="search-container">
+                <input type="text" placeholder="Search...">
+                <button type="submit"><img src="search-icon.png" alt="Search"></button>
+            </div>
+            <nav>
+                <a href="#" class="active">Home</a>
+                <a href="#">Shop</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+                <button class="btn" id="view-cart" onclick="viewCart()">View Cart (0)</button>
+            </nav>
+        </div>
+    </header>
+
+    <aside class="category-bar">
+        <div class="container">
+            <ul class="categories">
+                <li><a href="#">IOS</a></li>
+                <li><a href="#">ANDROID</a></li>
+                <li><a href="#">PIXEL</a></li>
+                <li><a href="#">MIUI</a></li>
+            </ul>
+        </div>
+    </aside>
+
+    <div class="container">
+        <section class="products">
+            <div class="product" id="product1" onmouseover="changeImage('product1')"
+                onmouseout="resetImage('product1')">
+                <div class="image-slider">
+                    <img src="product1_1.jpg" alt="Product 1" class="product-image current" data-alt="product1_2.jpg">
+                    <img src="product1_2.jpg" alt="Product 1" class="product-image next">
+                </div>
+                <div class="product-info">
+                    <h2>IPHONE 15</h2>
+                    <p>8/128 GB.</p>
+                    <p class="price">$99.99</p>
+                    <div class="countdown" id="countdown1"></div>
+                    <button class="btn" onclick="addToCart(this)">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="product" id="product2" onmouseover="changeImage('product2')"
+                onmouseout="resetImage('product2')">
+                <div class="image-slider">
+                    <img src="product2_1.jpg" alt="Product 2" class="product-image current" data-alt="product2_2.jpg">
+                    <img src="product2_2.jpg" alt="Product 2" class="product-image next">
+                </div>
+                <div class="product-info">
+                    <h2>SAMSUNG GALAXY S24 ULTRA ultra</h2>
+                    <p>8/128 GB.</p>
+                    <p class="price">$129.99</p>
+                    <div class="countdown" id="countdown2"></div>
+                    <button class="btn" onclick="addToCart(this)">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="product" id="product3" onmouseover="changeImage('product3')"
+                onmouseout="resetImage('product3')">
+                <div class="image-slider">
+                    <img src="product3_1.jpg" alt="Product 3" class="product-image current" data-alt="product3_2.jpg">
+                    <img src="product3_2.jpg" alt="Product 3" class="product-image next">
+                </div>
+                <div class="product-info">
+                    <h2>GOOGLE PIXEL 8</h2>
+                    <p>8/128 GB.</p>
+                    <p class="price">$79.99</p>
+                    <div class="countdown" id="countdown3"></div>
+                    <button class="btn" onclick="addToCart(this)">Add to Cart</button>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-info">
+                <p>jagatpura, jaipur, india</p>
+                <p>Email: info@mystore.com</p>
+                <p>Phone: +123 456 789</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
