@@ -140,7 +140,15 @@ margin-bottom: 50px;
     height: 220px;
     width: 350px;
 }
+.abouttag h1{
+    padding: 10px 0px 10px;
+    
+}
+.abouttag h3{
+    padding: 10px 0px 10px;
+    
+}
 .abouttag p{
-    padding: 0;
+    padding: 10px 0px 10px;
     margin: 0;
 }
