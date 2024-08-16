@@ -6,13 +6,14 @@
 
 
 .home {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     background: white;
     border: 0px solid;
     position: fixed;
     z-index: 1;
-    width: 100vw;
+   
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 
 }
@@ -40,14 +41,16 @@
 
 .mainimg {
     background-size: contain;
-    margin-left: 5px;
+   
+   width: 100%;
+   height: auto;
 }
 
 .logotag {
     position: absolute;
-
-    top: 400px;
-    left: 600px;
+top: 50%;
+left: 40%;
+ 
     font-size: 50px;
     font-weight: 10;
     color: white
@@ -62,7 +65,7 @@
 }
 
 .Projects h1 {
-    margin: 80px 0px 20px 70px;
+    margin: 60px 0px 20px 70px;
     font-size: 25px;
     font-weight: 100;
 }
@@ -100,4 +103,44 @@
     padding: 10px;
     width: 150px;
     font-weight: 100;
+}
+
+.About{
+    padding: 20px;
+    box-sizing: border-box;
+    
+
+}
+.abouttitle {
+    margin: 60px 0px 20px 70px;
+    font-size: 25px;
+    font-weight: 100;
+}
+
+.About p{
+    
+    margin-top: 50px;
+margin-bottom: 50px;
+}
+.abouttags{
+    display: flex;
+    margin: 30px 10px 10px 10px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 40px 0px 0px 0px;
+}
+.abouttag{
+    border: 1px solid black;
+    height: 440px;
+    width: 350px;
+    margin-bottom: 20px;
+
+}
+.abouttag img{
+    height: 220px;
+    width: 350px;
+}
+.abouttag p{
+    padding: 0;
+    margin: 0;
 }
