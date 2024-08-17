@@ -176,14 +176,17 @@
 
 .input {
 
-   width: 1000px;
-    padding: 10px 0px 10px 10px;
+   width: 100%;
+   
     margin-top: 20px;
     height: 30px;
     font-size: 1.2rem;
  
 }
  
+form{
+    padding: 0.01em 16px;
+}
      
 
 .contacts h1 {
@@ -196,7 +199,4 @@
     padding: 20px 0px 10px;
     margin-left: 10px;
 }
-
-.inputbox{
-    display: flex;
-}
+ 
