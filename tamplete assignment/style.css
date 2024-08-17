@@ -112,13 +112,13 @@ left: 40%;
 
 }
 .abouttitle {
-    margin: 60px 0px 20px 70px;
+    margin: 0px 0px 20px 70px;
     font-size: 25px;
     font-weight: 100;
 }
 
 .About p{
-    
+     margin-left: 20px;
     margin-top: 50px;
 margin-bottom: 50px;
 }
@@ -130,7 +130,7 @@ margin-bottom: 50px;
     margin: 40px 0px 0px 0px;
 }
 .abouttag{
-    border: 1px solid black;
+    border: px solid black;
     height: 440px;
     width: 350px;
     margin-bottom: 20px;
@@ -140,15 +140,31 @@ margin-bottom: 50px;
     height: 220px;
     width: 350px;
 }
-.abouttag h1{
+.abouttag h2{
     padding: 10px 0px 10px;
+    font-weight: 100;
+  
     
 }
-.abouttag h3{
+.abouttag h4{
     padding: 10px 0px 10px;
+    font-weight: 100;
+    color: rgb(134, 134, 133);
+    
     
 }
 .abouttag p{
     padding: 10px 0px 10px;
     margin: 0;
 }
+
+.aboutbutton{
+    padding: 10px;
+  position: relative;
+  width: 350px;
+  background: rgb(239, 235, 235);
+  border: 0px;
+  font-family:Verdana, sans-serif ;
+}
+
+
