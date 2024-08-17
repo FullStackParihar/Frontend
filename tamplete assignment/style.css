@@ -13,7 +13,7 @@
     border: 0px solid;
     position: fixed;
     z-index: 1;
-   
+
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 
 }
@@ -41,16 +41,16 @@
 
 .mainimg {
     background-size: contain;
-   
-   width: 100%;
-   height: auto;
+
+    width: 100%;
+    height: auto;
 }
 
 .logotag {
     position: absolute;
-top: 50%;
-left: 40%;
- 
+    top: 50%;
+    left: 40%;
+
     font-size: 50px;
     font-weight: 10;
     color: white
@@ -105,66 +105,98 @@ left: 40%;
     font-weight: 100;
 }
 
-.About{
+.About {
     padding: 20px;
     box-sizing: border-box;
-    
+
 
 }
+
 .abouttitle {
     margin: 0px 0px 20px 70px;
     font-size: 25px;
     font-weight: 100;
 }
 
-.About p{
-     margin-left: 20px;
+.About p {
+    margin-left: 20px;
     margin-top: 50px;
-margin-bottom: 50px;
+    margin-bottom: 50px;
 }
-.abouttags{
+
+.abouttags {
     display: flex;
     margin: 30px 10px 10px 10px;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin: 40px 0px 0px 0px;
 }
-.abouttag{
+
+.abouttag {
     border: px solid black;
     height: 440px;
     width: 350px;
     margin-bottom: 20px;
 
 }
-.abouttag img{
+
+.abouttag img {
     height: 220px;
     width: 350px;
 }
-.abouttag h2{
+
+.abouttag h2 {
     padding: 10px 0px 10px;
     font-weight: 100;
-  
-    
+
+
 }
-.abouttag h4{
+
+.abouttag h4 {
     padding: 10px 0px 10px;
     font-weight: 100;
     color: rgb(134, 134, 133);
-    
-    
+
+
 }
-.abouttag p{
+
+.abouttag p {
     padding: 10px 0px 10px;
     margin: 0;
 }
 
-.aboutbutton{
+.aboutbutton {
     padding: 10px;
-  position: relative;
-  width: 350px;
-  background: rgb(239, 235, 235);
-  border: 0px;
-  font-family:Verdana, sans-serif ;
+    position: relative;
+    width: 350px;
+    background: rgb(239, 235, 235);
+    border: 0px;
+    font-family: Verdana, sans-serif;
 }
 
+.input {
 
+   width: 1000px;
+    padding: 10px 0px 10px 10px;
+    margin-top: 20px;
+    height: 30px;
+    font-size: 1.2rem;
+ 
+}
+ 
+     
+
+.contacts h1 {
+    margin: 40px 0px 20px 70px;
+    font-size: 25px;
+    font-weight: 100;
+}
+
+.contacts label {
+    padding: 20px 0px 10px;
+    margin-left: 10px;
+}
+
+.inputbox{
+    display: flex;
+}
