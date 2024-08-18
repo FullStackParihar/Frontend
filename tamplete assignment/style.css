@@ -211,3 +211,10 @@ form {
     color: white;
     background: black;
 }
+
+.footerimg {
+    background-size: contain;
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+}
