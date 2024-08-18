@@ -175,12 +175,15 @@
 }
 
 .input {
-
+padding: 10px;
+padding-top: 20px;
+padding-bottom: 20px;
    width: 100%;
-   
+   box-sizing: border-box;
     margin-top: 20px;
     height: 30px;
     font-size: 1.2rem;
+    border: 2px solid rgb(205, 196, 196);
  
 }
  
@@ -200,3 +203,11 @@ form{
     margin-left: 10px;
 }
  
+.formbutton{
+     
+    margin-top: 30px;
+    height: 40px;
+    width: 150px;
+    color: white;
+    background: black;
+}
