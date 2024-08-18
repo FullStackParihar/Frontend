@@ -70,6 +70,14 @@
     font-weight: 100;
 }
 
+.projecttagp {
+
+
+    box-sizing: border-box;
+    margin-top: 20px;
+    border: 1px solid rgb(224, 220, 220);
+}
+
 .projectimgs {
     display: flex;
     flex-wrap: wrap;
@@ -113,9 +121,15 @@
 }
 
 .abouttitle {
-    margin: 0px 0px 20px 70px;
+    margin: 0px 0px 0px 70px;
     font-size: 25px;
     font-weight: 100;
+}
+
+.abouttagp {
+    box-sizing: border-box;
+    margin-top: 20px;
+    border: 1px solid rgb(224, 220, 220);
 }
 
 .About p {
@@ -196,6 +210,14 @@ form {
     margin: 40px 0px 40px 70px;
     font-size: 25px;
     font-weight: 100;
+}
+
+.contacnttagp {
+     
+    box-sizing: border-box;
+    margin-top: 20px;
+
+    border: 1px solid rgb(224, 220, 220);
 }
 
 .contacts label {
