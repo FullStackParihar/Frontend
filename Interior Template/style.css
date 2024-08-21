@@ -49,31 +49,35 @@ nav {
 main {
     margin-left: 330px;
     margin-right: 0px;
-     width: 100%;
+    width: 100%;
     box-sizing: border-box;
     z-index: 1;
     font-family: "Poppins", sans-serif;
 }
-.heading{
+
+.heading {
     height: 240px;
     padding: 20px;
     padding-top: 60px;
-      
-   
-    
+
+
+
 }
-.heading h1{
-     margin-top: 40px;
+
+.heading h1 {
+    margin-top: 40px;
     font-size: 64px;
     margin-bottom: 10px;
     margin-bottom: 20px;
 }
-.heading h2{
+
+.heading h2 {
     font-size: 48px;
-    color:#f44336;
+    color: #f44336;
     margin-bottom: 30px;
 }
-.heading p{
+
+.heading p {
     height: 10px;
     width: 60px;
     background: #f44336;
@@ -82,39 +86,42 @@ main {
     margin-bottom: 20px;
 }
 
-.gridimg{
+.gridimg {
     display: flex;
     box-sizing: inherit;
-     width:100%;
-     margin-left: 30px;
-     
-    
-}
-.leftgridimg img{
     width: 100%;
-    margin-top: 10px;
-    filter: opacity(0.7); 
+    margin-left: 30px;
+
+
 }
-.leftgridimg img:hover {
-    filter: opacity(1);
-}
-.rightgridimg img{
+
+.leftgridimg img {
     width: 100%;
     margin-top: 10px;
     filter: opacity(0.7);
-  
 }
+
+.leftgridimg img:hover {
+    filter: opacity(1);
+}
+
+.rightgridimg img {
+    width: 100%;
+    margin-top: 10px;
+    filter: opacity(0.7);
+
+}
+
 .rightgridimg img:hover {
     filter: opacity(1);
 }
 
-.leftgridimg{
-    width: 500px;
-     
-}
-.rightgridimg{
-    width: 500px;
-    margin-left: 20px;
+.leftgridimg {
+    width: 540px;
+
 }
 
- 
+.rightgridimg {
+    width: 540px;
+    margin-left: 20px;
+}
