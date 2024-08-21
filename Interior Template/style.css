@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+     
+}
+
+.company {
+    margin-top: 80px;
+    padding: 10px;
+    font-family: "Poppins", sans-serif;
+}
+
+nav {
+    height: 100%;
+    width: 240px;
+    padding: 20px;
+    position: fixed;
+    font-size: 20px;
+    background-color: orangered;
+    color: white;
+ 
+}
+
+.menu {
+    margin-top: 60px;
+   
+}
+
+.menu a {
+    display: block;
+    line-height: 25px;
+    text-decoration: none;
+    margin-top: 0px;
+    padding: 10px;
+    width: 220px;
+    color: white;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+}
+
+.menu a:hover {
+    color: black;
+    background: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+}
+
+main {
+    margin-left: 300px;
+    margin-right: 0px;
+    width: 100vw;
+}
