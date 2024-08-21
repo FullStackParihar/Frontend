@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-     
+
 }
 
 .company {
@@ -18,12 +18,12 @@ nav {
     font-size: 20px;
     background-color: orangered;
     color: white;
- 
+
 }
 
 .menu {
     margin-top: 60px;
-   
+
 }
 
 .menu a {
@@ -48,5 +48,28 @@ nav {
 main {
     margin-left: 300px;
     margin-right: 0px;
-    width: 100vw;
+    width: calc(240px-100vw);
+    box-sizing: border-box;
+}
+.heading{
+    height: 250px;
+    padding: 20px;
+    padding-top: 60px;
+   
+    
+}
+.heading h1{
+    font-size: 64px;
+    margin-bottom: 30px;
+}
+.heading h2{
+    font-size: 48px;
+    color: orangered;
+}
+
+.gridimg{
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px ;
+    width: 700px;
 }
