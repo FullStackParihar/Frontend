@@ -18,6 +18,7 @@ nav {
     font-size: 20px;
     background-color: orangered;
     color: white;
+    z-index: 1;
 
 }
 
@@ -48,28 +49,64 @@ nav {
 main {
     margin-left: 300px;
     margin-right: 0px;
-    width: calc(240px-100vw);
+     width: 100%;
     box-sizing: border-box;
+    z-index: 1;
+
 }
 .heading{
-    height: 250px;
+    height: 180px;
     padding: 20px;
     padding-top: 60px;
+     
    
     
 }
 .heading h1{
     font-size: 64px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 .heading h2{
     font-size: 48px;
     color: orangered;
 }
+.heading p{
+    height: 10px;
+    width: 60px;
+    background: orangered;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
 .gridimg{
     display: flex;
-    flex-wrap: wrap;
-    height: 400px ;
-    width: 700px;
+    box-sizing: inherit;
+     width:100%;
+     margin-left: 30px;
+     
+    
 }
+.leftgridimg img{
+    width: 100%;
+    margin-top: 10px;
+ 
+   
+}
+.rightgridimg img{
+    width: 100%;
+    margin-top: 10px;
+   
+}
+
+
+.leftgridimg{
+    width: 500px;
+     
+}
+.rightgridimg{
+    width: 500px;
+    margin-left: 20px;
+}
+
+ 
