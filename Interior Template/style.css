@@ -12,7 +12,7 @@
 
 nav {
     height: 100%;
-    width: 240px;
+    width: 260px;
     padding: 20px;
     position: fixed;
     font-size: 20px;
@@ -47,28 +47,31 @@ nav {
 }
 
 main {
-    margin-left: 300px;
+    margin-left: 330px;
     margin-right: 0px;
      width: 100%;
     box-sizing: border-box;
     z-index: 1;
-
+    font-family: "Poppins", sans-serif;
 }
 .heading{
-    height: 180px;
+    height: 240px;
     padding: 20px;
     padding-top: 60px;
-     
+      
    
     
 }
 .heading h1{
+     margin-top: 40px;
     font-size: 64px;
     margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 .heading h2{
     font-size: 48px;
     color: orangered;
+    margin-bottom: 30px;
 }
 .heading p{
     height: 10px;
