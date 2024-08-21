@@ -157,3 +157,35 @@ main {
     height: 220px;
     line-height: 25px;
 }
+
+.designers {
+
+    padding: 0 8px;
+    box-sizing: inherit;
+}
+
+.designersimg {
+    margin-left: 40px;
+    display: flex;
+
+}
+
+.designersbox img {
+    width: 350px;
+
+}
+
+.designersbox {
+    background: rgb(232, 230, 230);
+    height: 400px;
+
+    width: 350px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.designersbox h2,
+h4,
+p {
+    margin-top: 20px;
+}
