@@ -16,7 +16,7 @@ nav {
     padding: 20px;
     position: fixed;
     font-size: 20px;
-    background-color: orangered;
+    background-color: #f44336;
     color: white;
     z-index: 1;
 
@@ -70,13 +70,13 @@ main {
 }
 .heading h2{
     font-size: 48px;
-    color: orangered;
+    color:#f44336;
     margin-bottom: 30px;
 }
 .heading p{
     height: 10px;
     width: 60px;
-    background: orangered;
+    background: #f44336;
     border-radius: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -93,15 +93,20 @@ main {
 .leftgridimg img{
     width: 100%;
     margin-top: 10px;
- 
-   
+    filter: opacity(0.7); 
+}
+.leftgridimg img:hover {
+    filter: opacity(1);
 }
 .rightgridimg img{
     width: 100%;
     margin-top: 10px;
-   
+    filter: opacity(0.7);
+  
 }
-
+.rightgridimg img:hover {
+    filter: opacity(1);
+}
 
 .leftgridimg{
     width: 500px;
