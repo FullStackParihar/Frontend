@@ -191,12 +191,49 @@ p {
 }
 
 .leftlist {
-    height: 500px;
-    width: 200;
+    height: 600px;
+    width: 400px;
+    list-style-type: none;
+
+    margin-right: 20px;
+
+    font-size: 2rem;
+}
+
+.leftlist ul {
+    list-style-type: none;
+    line-height: 40px;
+
+
+}
+
+.leftlist ul li {
+    border: 1px solid black;
+    padding-top: 20px;
+    padding-bottom: 20px;
 
 }
 
 .rightlist {
-    height: 500px;
-    width: 200;
+    height: 600px;
+    width: 400px;
+    list-style-type: none;
+    font-size: 2rem;
+
+}
+
+.rightlist ul {
+    list-style-type: none;
+    line-height: 40px;
+}
+
+.rightlist ul li {
+    border: 1px solid black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.list {
+    display: flex;
+    margin-left: 40px;
 }
