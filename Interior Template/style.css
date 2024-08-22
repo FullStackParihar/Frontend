@@ -222,7 +222,7 @@ p {
 }
 
 .leftlist {
-    height: 620px;
+    height: 600px;
     width: 550px;
     list-style-type: none;
     margin-right: 20px;
@@ -243,13 +243,13 @@ p {
 
 .leftlist ul li {
 
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     text-align: center;
 }
 
 .rightlist {
-    height: 620px;
+    height: 600px;
     width: 550px;
     list-style-type: none;
     margin-right: 20px;
@@ -267,13 +267,14 @@ p {
 
 .rightlist ul li {
 
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     text-align: center;
 }
+
 .rightlist ul hr {
-color: aquamarine;
-  background: rgb(241, 127, 127);
+    color: aquamarine;
+    background: rgb(241, 127, 127);
 }
 
 
