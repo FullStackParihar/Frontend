@@ -189,3 +189,14 @@ h4,
 p {
     margin-top: 20px;
 }
+
+.leftlist {
+    height: 500px;
+    width: 200;
+
+}
+
+.rightlist {
+    height: 500px;
+    width: 200;
+}
