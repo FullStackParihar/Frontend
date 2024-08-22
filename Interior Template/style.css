@@ -223,8 +223,8 @@ p {
 }
 
 .leftlist {
-    height: 600px;
-    width: 500px;
+    height: 530px;
+    width: 550px;
     list-style-type: none;
     margin-right: 20px;
     font-size: 16px;
@@ -242,15 +242,15 @@ p {
 }
 
 .leftlist ul li {
-  
-    padding-top: 20px;
-    padding-bottom: 20px;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
     text-align: center;
 }
 
 .rightlist {
-    height: 600px;
-    width: 500px;
+    height: 530px;
+    width: 550px;
     list-style-type: none;
     margin-right: 20px;
     font-size: 16px;
@@ -266,26 +266,50 @@ p {
 }
 
 .rightlist ul li {
-   
-    padding-top: 20px;
-    padding-bottom: 20px;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
     text-align: center;
 }
 
 .list {
     display: flex;
-    margin-left: 40px;
+    margin-left: 30px;
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 1px;
 }
 
-.list button{
-    width: 500px;
-    height: 60px;
+.leftlist button {
+
+    height: 50px;
+    width: 100px;
+    border: 0px;
+    background: white;
 }
-.title{
+
+.rightlist button {
+
+    height: 50px;
+    width: 100px;
+    border: 0px;
+    color: white;
+    background: #f44336;
+}
+
+.leftlist .title {
     height: 70px;
     font-size: 28px;
-     text-align: center;
+    text-align: center;
     background: #616161;
     color: white;
-    
+
+}
+
+.rightlist .title {
+    height: 70px;
+    font-size: 28px;
+    text-align: center;
+    background: #f44336;
+    color: white;
+
 }
