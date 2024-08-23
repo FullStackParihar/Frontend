@@ -168,6 +168,9 @@ main {
     padding: 0 8px;
     box-sizing: inherit;
 }
+.designers h3{
+    margin-left: 30px;
+}
 
 .designersimg {
     margin-left: 40px;
