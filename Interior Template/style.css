@@ -59,8 +59,7 @@ main {
     padding: 20px;
     width: 100%;
     padding-top: 60px;
-
-
+    font-family: "Poppins", sans-serif;
 
 
 }
@@ -70,12 +69,14 @@ main {
     font-size: 64px;
     margin-bottom: 10px;
     margin-bottom: 20px;
+    font-family: "Poppins", sans-serif;
 }
 
 .heading h2 {
     font-size: 48px;
     color: #f44336;
     margin-bottom: 30px;
+    font-family: "Poppins", sans-serif;
 }
 
 .heading p {
@@ -84,6 +85,7 @@ main {
     background: #f44336;
     border-radius: 20px;
     margin-top: 20px;
+    font-family: "Poppins", sans-serif;
     margin-bottom: 20px;
 }
 
@@ -139,6 +141,7 @@ main {
     margin-top: 40px;
     font-size: 48px;
     color: #f44336;
+    font-family: "Poppins", sans-serif;
     margin-bottom: 30px;
 }
 
@@ -149,6 +152,7 @@ main {
     border-radius: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
+    font-family: "Poppins", sans-serif;
 }
 
 .services p {
@@ -160,7 +164,7 @@ main {
 }
 
 .designers {
-
+    font-family: "Poppins", sans-serif;
     padding: 0 8px;
     box-sizing: inherit;
 }
@@ -188,6 +192,7 @@ main {
 .designersbox h2,
 h4,
 p {
+    font-family: "Poppins", sans-serif;
     margin-top: 20px;
 }
 
@@ -203,6 +208,7 @@ p {
     margin-top: 40px;
     font-size: 48px;
     color: #f44336;
+    font-family: "Poppins", sans-serif;
     margin-bottom: 30px;
 }
 
@@ -213,6 +219,7 @@ p {
     border-radius: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
+    font-family: "Poppins", sans-serif;
 }
 
 .Packages p {
@@ -239,12 +246,12 @@ p {
 .leftlist ul {
     list-style-type: none;
     line-height: 40px;
-
+    font-family: "Poppins", sans-serif;
 
 }
 
 .leftlist ul li {
-
+    font-family: "Poppins", sans-serif;
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: center;
@@ -265,10 +272,11 @@ p {
 .rightlist ul {
     list-style-type: none;
     line-height: 40px;
+    font-family: "Poppins", sans-serif;
 }
 
 .rightlist ul li {
-
+    font-family: "Poppins", sans-serif;
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: center;
@@ -276,6 +284,7 @@ p {
 
 .rightlist ul hr {
     color: aquamarine;
+    font-family: "Poppins", sans-serif;
     background: rgb(241, 127, 127);
 }
 
@@ -323,6 +332,7 @@ p {
     color: white;
 
 }
+
 .form {
     box-sizing: inherit;
     width: 100%;
@@ -352,56 +362,61 @@ p {
 .form p {
     font-family: "Poppins", sans-serif;
     width: 1100px;
-    font-family: "Poppins", sans-serif;
     font-size: 18px;
     height: 50px;
     line-height: 25px;
 }
 
-form{
+form {
     width: 1100px;
     height: 400px;
     font-family: "Poppins", sans-serif;
     font-size: 18px;
 
 }
-form label{
+
+form label {
     font-size: 16px;
     height: 40px;
     font-family: "Poppins", sans-serif;
     padding-top: 20px;
-  box-sizing: border-box;
-  letter-spacing: 1px;    
+    box-sizing: border-box;
+    letter-spacing: 1px;
 }
-form input{
+
+form input {
     border: 1px solid rgb(211, 211, 211);
     margin-bottom: 10px;
     font-family: "Poppins", sans-serif;
 }
-form input,button{
+
+form input,
+button {
     margin-top: 10px;
     height: 40px;
     width: 1100px;
-    
+
 }
-form button{
+
+form button {
     height: 50px;
     border: 0px;
     background: #f44336;
-    color:#f1f1f1;
+    color: #f1f1f1;
     font-size: 18px;
 }
-footer{
+
+footer {
     height: 120px;
-    width:100%;
+    width: 100%;
     text-align: end;
     background: #f1f1f1;
 }
-footer p{
+
+footer p {
     font-family: "Poppins", sans-serif;
     display: inline-block;
     padding-top: 40px;
     padding-right: 50px;
     font-size: 18px;
 }
- 
