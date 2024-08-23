@@ -371,15 +371,13 @@ form label{
     font-family: "Poppins", sans-serif;
     padding-top: 20px;
   box-sizing: border-box;
-  letter-spacing: 1px;
-    
+  letter-spacing: 1px;    
 }
 form input{
     border: 1px solid rgb(211, 211, 211);
     margin-bottom: 10px;
     font-family: "Poppins", sans-serif;
 }
-
 form input,button{
     margin-top: 10px;
     height: 40px;
