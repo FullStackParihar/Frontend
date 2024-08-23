@@ -363,7 +363,7 @@ form{
 
 }
 form label{
-    font-size: 28px;
+    font-size: 16px;
     height: 40px;
     padding-top: 20px;
   box-sizing: border-box;
@@ -371,6 +371,7 @@ form label{
 }
 form input{
     border: 1px silver gray;
+    margin-bottom: 10px;
 }
 
 form input,button{
@@ -380,9 +381,11 @@ form input,button{
     
 }
 form button{
+    height: 50px;
     border: 0px;
     background: #f44336;
     color:#f1f1f1;
+    font-size: 18px;
 }
 
  
