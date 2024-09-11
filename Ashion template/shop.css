@@ -1,0 +1,389 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    box-sizing: border-box;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .navigations ul {
+    display: flex;
+  }
+  
+  .navigations ul li a {
+    padding: 0px 10px 0px 10px;
+    text-decoration: none;
+    list-style-type: square;
+    color: black;
+    font-size: 14px;
+  }
+  
+  .navigations ul li {
+    list-style-type: none;
+  }
+  
+  .datanav a {
+    text-decoration: none;
+    color: black;
+    padding: 0px 5px 0px 5px;
+  }
+  
+  .datanav {
+    display: flex;
+    align-items: center;
+  }
+  
+  .icons span {
+    padding: 0px 5px 0px 5px;
+  }
+  
+  .icon {
+    position: relative;
+    display: inline-block;
+    font-size: 24px;
+  }
+  #menubar{
+    display: none;
+  }
+  
+  .count-badge {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 0px 0px;
+    font-size: 10px;
+  }
+  
+  .count-badge2 {
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 0px 0px;
+    font-size: 10px;
+  }
+  
+ 
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+ 
+.sidebar {
+    width: 20%;
+    background-color: #f9f9f9;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar h3 {
+    margin-bottom: 15px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 20px;
+}
+
+.sidebar ul li {
+    margin-bottom: 8px;
+}
+
+.filter-btn {
+    background-color: #ff6f61;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+ 
+.products {
+    width: 75%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.product-item {
+    background-color: #fff;
+    text-align: center;
+    padding: 15px;
+    
+    border-radius: 8px;
+}
+
+.product-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product-item h4 {
+    margin: 10px 0;
+}
+.product-item h5 {
+    margin: 10px 0;
+    color: rgb(235, 235, 2);
+}
+
+.product-item .price {
+    font-weight: bold;
+    color: #333;
+}
+
+.product-item .sale span {
+    color: #999;
+    text-decoration: line-through;
+    margin-left: 10px;
+}
+
+@media (max-width: 800px) {
+    .navigations,
+    .datanav {
+      display: none;
+    }
+  
+    #menubar {
+      display: block;
+    }
+  
+    .allbanner {
+      flex-direction: column;
+    }
+  
+    .mainbanner {
+      width: 100%;
+    }
+  
+    .otherbanner {
+      width: 100%;
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+         font-size: larger;
+    }
+
+    .sidebar {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .products {
+        width: 100%;
+        grid-template-columns: 1fr;
+    }
+}
+
+    
+  
+  .custom-footer {
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+    color: #333;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+ 
+  }
+  
+  .footer-left {
+    flex: 1 1 25%;
+   
+    min-width: 200px;
+    padding: 20px;
+  }
+  
+  .footer-left h2 {
+    font-size: 24px;
+    color: #000;
+  }
+  
+  .footer-left p {
+    margin: 15px 0;
+    line-height: 1.6;
+  }
+  
+  .payment-icons img {
+    width: 40px;
+    margin-right: 10px;
+  }
+  
+  .footer-quick-links,
+  .footer-account,
+  .footer-newsletter {
+    flex: 1 1 20%;
+    min-width: 200px;
+    padding: 20px;
+  }
+  
+  .footer-quick-links ul,
+  .footer-account ul {
+    list-style-type: none;
+  }
+  
+  .footer-quick-links ul li,
+  .footer-account ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-quick-links ul li a,
+  .footer-account ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .footer-newsletter h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .newsletter-form {
+    display: flex;
+    margin-bottom: 15px;
+  }
+  
+  .newsletter-form input {
+    padding: 7px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .subscribe-button {
+    padding: 8px 16px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    position: absolute;
+    right: 30px;
+  }
+  
+  .social-icons a {
+    color: #333;
+    margin-right: 10px;
+    font-size: 16px;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px 0;
+    background-color: #fff;
+    border-top: 1px solid #ccc;
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+  }
+   
+  @media (max-width: 768px) {
+    .footer-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .footer-left,
+    .footer-quick-links,
+    .footer-account,
+    .footer-newsletter {
+      flex: 1 1 100%;
+  
+      text-align: center;
+    }
+  
+    .payment-icons {
+      justify-content: center;
+    }
+  
+    .newsletter-form {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .newsletter-form input {
+      margin-bottom: 10px;
+      width: 80%;
+    }
+  
+    .social-icons {
+      margin-top: 20px;
+    }
+  
+    .subscribe-button {
+      padding: 8px 16px;
+      background-color: red;
+      color: white;
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+      position: absolute;
+      right: 250px;
+    }
+  }
+  
+  
+  
+  @media (max-width: 800px) {
+    .navigations,
+    .datanav {
+      display: none;
+    }
+  
+    #menubar {
+      display: block;
+    }
+  
+    .allbanner {
+      flex-direction: column;
+    }
+  
+    .mainbanner {
+      width: 100%;
+    }
+  
+    .otherbanner {
+      width: 100%;
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+ 
+ 
+@media (max-width: 768px) {
+    .sidebar {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .products {
+        width: 100%;
+        grid-template-columns: 1fr;
+    }
+}
+
+  
