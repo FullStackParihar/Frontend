@@ -78,43 +78,55 @@
     display: none;
   }
  
-
-/* Blog Content Styling */
+ 
+/* Blog Content Section */
 .blog-content {
     padding: 40px;
     background-color: #f9f9f9;
 }
 
+/* Grid Layout for Blog Posts */
 .blog-posts {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 30px;
+    grid-gap: 20px;
 }
 
+/* Blog Post Styles */
 .post {
     background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
-    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Ensure items within each post are spaced correctly */
+    height: 100%;
 }
 
+/* Image Styling */
 .post img {
     width: 100%;
-    height: auto;
+    height: 200px; /* Fix the height for consistent size */
+    object-fit: cover; /* Ensures the image covers its container without stretching */
+    border-radius: 10px 10px 0 0;
 }
 
+/* Title Styling */
 .post h4 {
     font-size: 18px;
     font-weight: bold;
     padding: 15px;
+    flex-grow: 1;
 }
 
+/* Description Styling */
 .post p {
     font-size: 14px;
     color: #999;
     padding: 0 15px 15px;
 }
 
+/* "Load More" Button */
 .load-more {
     margin: 30px auto;
     display: block;
@@ -127,10 +139,10 @@
     text-align: center;
 }
 
-/* Responsive Design */
+ 
 @media (max-width: 768px) {
     .blog-posts {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr;  
     }
 
     .post h4 {
@@ -141,17 +153,6 @@
         font-size: 12px;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
