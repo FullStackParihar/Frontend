@@ -1,157 +1,158 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    box-sizing: border-box;
-  }
-  
-  nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
-  }
-  
-  .navigations ul {
-    display: flex;
-  }
-  
-  .navigations ul li a {
-    padding: 0px 10px 0px 10px;
-    text-decoration: none;
-    list-style-type: square;
-    color: black;
-    font-size: 14px;
-  }
-  
-  .navigations ul li {
-    list-style-type: none;
-  }
-  
-  .datanav a {
-    text-decoration: none;
-    color: black;
-    padding: 0px 5px 0px 5px;
-  }
-  
-  .datanav {
-    display: flex;
-    align-items: center;
-  }
-  
-  .icons span {
-    padding: 0px 5px 0px 5px;
-  }
-  
-  .icon {
-    position: relative;
-    display: inline-block;
-    font-size: 24px;
-  }
-  
-  .count-badge {
-    position: absolute;
-    top: 20px;
-    right: 45px;
-    background-color: red;
-    color: white;
-    border-radius: 50%;
-    padding: 0px 0px;
-    font-size: 10px;
-  }
-  
-  .count-badge2 {
-    position: absolute;
-    top: 20px;
-    right: 15px;
-    background-color: red;
-    color: white;
-    border-radius: 50%;
-    padding: 0px 0px;
-    font-size: 10px;
-  }
-  
-  #menubar {
-    display: none;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.navigations ul {
+  display: flex;
+}
+
+.navigations ul li a {
+  padding: 0px 10px 0px 10px;
+  text-decoration: none;
+  list-style-type: square;
+  color: black;
+  font-size: 14px;
+}
+
+.navigations ul li {
+  list-style-type: none;
+}
+
+.datanav a {
+  text-decoration: none;
+  color: black;
+  padding: 0px 5px 0px 5px;
+}
+
+.datanav {
+  display: flex;
+  align-items: center;
+}
+
+.icons span {
+  padding: 0px 5px 0px 5px;
+}
+
+.icon {
+  position: relative;
+  display: inline-block;
+  font-size: 24px;
+}
+
+.count-badge {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding: 0px 0px;
+  font-size: 10px;
+}
+
+.count-badge2 {
+  position: absolute;
+  top: 20px;
+  right: 15px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding: 0px 0px;
+  font-size: 10px;
+}
+
+#menubar {
+  display: none;
+}
+
+
  
- 
-/* Blog Content Section */
 .blog-content {
-    padding: 40px;
-    background-color: #f9f9f9;
-}
-
-/* Grid Layout for Blog Posts */
-.blog-posts {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-gap: 20px;
-}
-
-/* Blog Post Styles */
-.post {
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between; /* Ensure items within each post are spaced correctly */
-    height: 100%;
-}
-
-/* Image Styling */
-.post img {
-    width: 100%;
-    height: 200px; /* Fix the height for consistent size */
-    object-fit: cover; /* Ensures the image covers its container without stretching */
-    border-radius: 10px 10px 0 0;
-}
-
-/* Title Styling */
-.post h4 {
-    font-size: 18px;
-    font-weight: bold;
-    padding: 15px;
-    flex-grow: 1;
-}
-
-/* Description Styling */
-.post p {
-    font-size: 14px;
-    color: #999;
-    padding: 0 15px 15px;
-}
-
-/* "Load More" Button */
-.load-more {
-    margin: 30px auto;
-    display: block;
-    padding: 10px 20px;
-    background-color: #ff6f61;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-    text-align: center;
+  padding: 40px;
+  background-color: #f9f9f9;
 }
 
  
+.blog-posts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+}
+
+ 
+.post {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+  height: 100%;
+}
+
+ 
+.post img {
+  width: 100%;
+  height: 200px;
+ 
+  object-fit: cover;
+   
+  border-radius: 10px 10px 0 0;
+}
+ 
+.post h4 {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 15px;
+  flex-grow: 1;
+}
+ 
+.post p {
+  font-size: 14px;
+  color: #999;
+  padding: 0 15px 15px;
+}
+
+ 
+.load-more {
+  margin: 30px auto;
+  display: block;
+  padding: 10px 20px;
+  background-color: #ff6f61;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+
 @media (max-width: 768px) {
-    .blog-posts {
-        grid-template-columns: 1fr;  
-    }
+  .blog-posts {
+    grid-template-columns: 1fr;
+  }
 
-    .post h4 {
-        font-size: 16px;
-    }
+  .post h4 {
+    font-size: 16px;
+  }
 
-    .post p {
-        font-size: 12px;
-    }
+  .post p {
+    font-size: 12px;
+  }
 }
 
 
@@ -159,146 +160,208 @@
 
 
 
-  
-  .products {
-    display: flex;
-    justify-content: space-between;
-    padding: 0px;
-    background-color: #f9f9f9;
-    flex-wrap: wrap;
-  }
-  
-  #product {
-    flex: 1 1 calc(15% - 0px);
-    min-width: 100px;
-    height: 300px;
-    display: flex;
-    justify-content: center;
+
+.products {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+  background-color: #f9f9f9;
+  flex-wrap: wrap;
+}
+
+#product {
+  flex: 1 1 calc(15% - 0px);
+  min-width: 100px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#product h3 {
+  visibility: hidden;
+}
+
+.product1 {
+  width: 100%;
+  height: auto;
+  background-image: url(insta-1.jpg);
+}
+
+.product2 {
+  width: 100%;
+  height: auto;
+  background-image: url(insta-2.jpg);
+}
+
+.product3 {
+  width: 100%;
+  height: auto;
+  background-image: url(insta-3.jpg);
+}
+
+.product4 {
+  width: 100%;
+  height: auto;
+  background-image: url(insta-4.jpg);
+}
+
+.product5 {
+  width: 100%;
+  height: auto;
+  background-image: url(insta-5.jpg);
+}
+
+.product6 {
+  width: 100%;
+  height: auto;
+  background-image: url(insta-6.jpg);
+}
+
+#product:hover {
+  background: transparent;
+  visibility: visible;
+}
+
+.custom-footer {
+  background-color: #f9f9f9;
+  padding: 40px 20px;
+  color: #333;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+}
+
+.footer-left {
+  flex: 1 1 25%;
+
+  min-width: 200px;
+  padding: 20px;
+}
+
+.footer-left h2 {
+  font-size: 24px;
+  color: #000;
+}
+
+.footer-left p {
+  margin: 15px 0;
+  line-height: 1.6;
+}
+
+.payment-icons img {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.footer-quick-links,
+.footer-account,
+.footer-newsletter {
+  flex: 1 1 20%;
+  min-width: 200px;
+  padding: 20px;
+}
+
+.footer-quick-links ul,
+.footer-account ul {
+  list-style-type: none;
+}
+
+.footer-quick-links ul li,
+.footer-account ul li {
+  margin-bottom: 10px;
+}
+
+.footer-quick-links ul li a,
+.footer-account ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.footer-newsletter h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.newsletter-form {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.newsletter-form input {
+  padding: 7px;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  flex: 1;
+  margin-right: 10px;
+}
+
+.subscribe-button {
+  padding: 8px 16px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  position: absolute;
+  right: 30px;
+}
+
+.social-icons a {
+  color: #333;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 40px;
+  padding: 20px 0;
+  background-color: #fff;
+  border-top: 1px solid #ccc;
+}
+
+.footer-bottom p {
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
     align-items: center;
   }
-  
-  #product h3 {
-    visibility: hidden;
-  }
-  
-  .product1 {
-    width: 100%;
-    height: auto;
-    background-image: url(insta-1.jpg);
-  }
-  
-  .product2 {
-    width: 100%;
-    height: auto;
-    background-image: url(insta-2.jpg);
-  }
-  
-  .product3 {
-    width: 100%;
-    height: auto;
-    background-image: url(insta-3.jpg);
-  }
-  
-  .product4 {
-    width: 100%;
-    height: auto;
-    background-image: url(insta-4.jpg);
-  }
-  
-  .product5 {
-    width: 100%;
-    height: auto;
-    background-image: url(insta-5.jpg);
-  }
-  
-  .product6 {
-    width: 100%;
-    height: auto;
-    background-image: url(insta-6.jpg);
-  }
-  
-  #product:hover {
-    background: transparent;
-    visibility: visible;
-  }
-  
-  .custom-footer {
-    background-color: #f9f9f9;
-    padding: 40px 20px;
-    color: #333;
-  }
-  
-  .footer-container {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-   
-  }
-  
-  .footer-left {
-    flex: 1 1 25%;
-   
-    min-width: 200px;
-    padding: 20px;
-  }
-  
-  .footer-left h2 {
-    font-size: 24px;
-    color: #000;
-  }
-  
-  .footer-left p {
-    margin: 15px 0;
-    line-height: 1.6;
-  }
-  
-  .payment-icons img {
-    width: 40px;
-    margin-right: 10px;
-  }
-  
+
+  .footer-left,
   .footer-quick-links,
   .footer-account,
   .footer-newsletter {
-    flex: 1 1 20%;
-    min-width: 200px;
-    padding: 20px;
+    flex: 1 1 100%;
+
+    text-align: center;
   }
-  
-  .footer-quick-links ul,
-  .footer-account ul {
-    list-style-type: none;
+
+  .payment-icons {
+    justify-content: center;
   }
-  
-  .footer-quick-links ul li,
-  .footer-account ul li {
-    margin-bottom: 10px;
-  }
-  
-  .footer-quick-links ul li a,
-  .footer-account ul li a {
-    text-decoration: none;
-    color: #333;
-  }
-  
-  .footer-newsletter h3 {
-    font-size: 18px;
-    margin-bottom: 10px;
-  }
-  
+
   .newsletter-form {
-    display: flex;
-    margin-bottom: 15px;
+    flex-direction: column;
+    align-items: center;
   }
-  
+
   .newsletter-form input {
-    padding: 7px;
-    border: 1px solid #ccc;
-    border-radius: 30px;
-    flex: 1;
-    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 80%;
   }
-  
+
+  .social-icons {
+    margin-top: 20px;
+  }
+
   .subscribe-button {
     padding: 8px 16px;
     background-color: red;
@@ -307,99 +370,36 @@
     border-radius: 30px;
     cursor: pointer;
     position: absolute;
-    right: 30px;
+    right: 250px;
   }
-  
-  .social-icons a {
-    color: #333;
-    margin-right: 10px;
-    font-size: 16px;
+}
+
+@media (max-width: 468px) {
+
+
+  .products {
+    flex-direction: column;
   }
-  
-  .footer-bottom {
-    text-align: center;
-    margin-top: 40px;
-    padding: 20px 0;
-    background-color: #fff;
-    border-top: 1px solid #ccc;
+
+  .product {
+    flex: 1 1 100%;
   }
-  
-  .footer-bottom p {
-    margin: 0;
+}
+
+
+
+
+
+
+@media (max-width: 800px) {
+
+  .navigations,
+  .datanav {
+    display: none;
   }
-   
-  @media (max-width: 768px) {
-    .footer-container {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .footer-left,
-    .footer-quick-links,
-    .footer-account,
-    .footer-newsletter {
-      flex: 1 1 100%;
-  
-      text-align: center;
-    }
-  
-    .payment-icons {
-      justify-content: center;
-    }
-  
-    .newsletter-form {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .newsletter-form input {
-      margin-bottom: 10px;
-      width: 80%;
-    }
-  
-    .social-icons {
-      margin-top: 20px;
-    }
-  
-    .subscribe-button {
-      padding: 8px 16px;
-      background-color: red;
-      color: white;
-      border: none;
-      border-radius: 30px;
-      cursor: pointer;
-      position: absolute;
-      right: 250px;
-    }
+
+  #menubar {
+    display: block;
   }
-  
-  @media (max-width: 468px) {
-   
-  
-    .products {
-      flex-direction: column;
-    }
-  
-    .product {
-      flex: 1 1 100%;
-    }
-  }
-  
- 
-   
-  
- 
-  
-  @media (max-width: 800px) {
-    .navigations,
-    .datanav {
-      display: none;
-    }
-  
-    #menubar {
-      display: block;
-    }
-  
-  }
-  
-  
+
+}
