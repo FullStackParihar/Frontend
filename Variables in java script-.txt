@@ -1,0 +1,18 @@
+Variables in java script:-
+
+var:-var Is declare in it's fuction and the value of var can be changed after declaretion. var can available any where globally.
+
+let:- let can be declared inside the blocks like if-else statement or loops. value of let can be changed after declaration.
+
+const:-the const only available inside it block. the value of const can't be changed. 
+
+Scope:-
+the scope have three types
+
+1. Globle scope:- if you declare any thing outside the function or block it can be called as globle scope.it can be accessed from anywhere in the program.
+
+2. Function scope:-if you declare any thing inside the function with var can be called as function scope.var are accessible throughout that function.
+
+3. Block scope:-if you declare any thing inside the block with let or const can be called as block scope.These variables are accessible only within the block they are declared.
+
+Hoisting:- hoisting is a JavaScript mechanism where variable and function declarations are moved to the top of their containing scope during the compilation phase. This means you can use variables and functions before you declare them in your code.
