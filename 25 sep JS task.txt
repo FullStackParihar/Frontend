@@ -1,0 +1,109 @@
+1.call by value call by ref
+
+Call by value:- 
+In call by value, the main variable gives a copy of its value to the temporary variable used in the function. Once the copy is made, the temporary variable is independent of the main one. This means that if we change the value of the temporary variable inside the function, it won't affect the original value of the main variable. the primitive data type is called as call by values.
+ 
+let a = 5; 
+let b = a;  
+b = a + 5; 
+console.log(a);  := 5
+console.log(b);  := 10
+
+call by refrence:-
+In call by refrence, When you pass an object (like a array or an object) into a function, JavaScript gives the function a direct link to the original object. Any changes made inside the function will affect the original object.
+
+let obj1 = {  name: "vinod"
+               pass: "yes"   };
+
+let obj2 = obj1; 
+
+obj2.pass = "hit500K";  
+
+console.log(obj1); 
+console.log(obj2);
+ 
+the value may change for the pass.
+
+-
+--------------------------------------------------------------------------------------------------------------------------------------
+
+2.LTS:-
+
+LTS known as long term support. it is a software that help java script for receiving updates , bug fixing and to maintain security . it give the stability to the long term product of java script
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+3.Diffrence b/w nodejs js
+
+java script:- this is client side scripting language, java script is Used for Front-end development to make websites interactive. java script run on browser
+
+nodejs:-this is a server-side programming language, nodejs used for backend like serveers and database. nodejs run on server or local machin(back-end)
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+4.npm npx
+
+npm:- this is a defaut package manager for nodejs. it is used for installing and updating packages
+
+nmx:- this is a tool for nodejs to execute packsges without installing them.
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+5.abstract class 
+
+
+---------------------------------------------------------------------------------------------------------------------------------------
+6.primitive non-primitive
+
+primitive data type:- 
+
+Number:-
+Number data type in JavaScript can be used to hold numeric values
+
+let num = 25;
+
+
+string:-
+The string data type represent characters
+
+let name = "vishnu"
+
+Boolean:-
+the Boolean data type represent only two values is true or false.
+
+let isActive = true;
+
+
+Undefined:- 
+Represents a variable that has been declared but not assigned a value.
+
+let x;
+
+
+Null:-
+Represents an intentional absence of any object value.
+
+let y = null;
+
+
+Symbol:-
+Represents a unique identifier
+
+let sym = Symbol("$");
+
+
+non-primitive data type:-
+
+Object:- 
+A collection of key-value pairs
+
+Array:- 
+An ordered collection of items
+
+Function:- 
+A block of code that performs a task
+
+---------------------------------------------------------------------------------------------------------------------------------------
+7.loosely couple lang.:-
+Loose coupling is an approach to interconnecting the components in a system, network or software application so that those components, also called elements, depend on each other to the least extent practicable.
+
