@@ -1,3 +1,8 @@
- 
-let x = 20;
-console.log(x);
+
+function test() {
+  console.log(foo);
+  var foo = 10;
+  function foo() {}
+  console.log(foo);
+}
+test();

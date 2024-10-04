@@ -1,0 +1,68 @@
+1. console.log(x);
+   var x = 5;
+Output: ReferenceError: x is not defined
+
+2. let y = 10;
+   if (true) {
+       let y = 20;
+   }
+   console.log(y);
+Output: 10
+
+3. var a = 10;
+   if (true) {
+       var a = 20;
+   }
+   console.log(a);
+Output: 20
+
+4. console.log(z);
+   let z = 15;
+Output: ReferenceError: z is not defined
+
+5. function test() {
+       var m = 30;
+       if (true) {
+           let m = 40;
+           console.log(m);
+       }
+       console.log(m);
+   }
+   test();
+Output: 40
+30
+
+6. function test() {
+       var a = 50;
+       if (true) {
+           var a = 60;
+           let b = 70;
+           console.log(a, b);
+       }
+       console.log(a, b);
+   }
+   test();
+Output: 60, 70
+ReferenceError: b is not defined
+
+7. if (true) {
+       let a = 10;
+       const b = 20;
+   }
+   console.log(a, b);
+Output: ReferenceError: a is not defined
+ReferenceError: b is not defined
+
+8. var n = 5;
+   {
+       let n = 10;
+       console.log(n);
+   }
+   console.log(n);
+Output: 10
+5
+
+9. const obj = { a: 1, b: 2 };
+   obj.a = 10;
+   console.log(obj);
+Output: {'a': 10, 'b': 2}
