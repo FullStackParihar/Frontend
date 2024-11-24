@@ -19,6 +19,7 @@ body {
 .containerr{
     display: flex;
  justify-content: space-between;
+ width: 100%;
 }
  
 .header {
@@ -27,10 +28,12 @@ body {
     align-items: center;
     padding: 1rem 2rem;
     background: #f8f8f8;
+    width: 100%;
+    text-align: center;
 }
 
 .header .logo {
-    font-size: 2.2rem;
+    font-size: 2.5rem;
     font-weight: bold;
 }
 
@@ -39,17 +42,17 @@ body {
 }
 
 .header .nav a {
-    margin: 0 1rem;
+    margin: 0 2rem;
     width: 1200px;
     text-decoration: none;
     color: #333;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 
 .header .btn-contact {
     padding: 0.5rem 1.5rem;
     background: transparent;
-    border: 1px solid #333;
+    border: 2px solid #ff0000;
     color: #333;
     text-decoration: none;
     font-size: 1.2rem;
@@ -80,12 +83,13 @@ body {
     max-width: 350px;
     border-radius: 15px;
     width: 100%;
+    margin-bottom: 40px;
 }
 
 .hero .badge {
     position: absolute;
     bottom: -20px;
-    left: 50%;
+    left: 80%;
     transform: translateX(-50%);
     background: #ff0000;
     color: #fff;
@@ -100,6 +104,7 @@ body {
 .hero .hero-text {
     flex: 1.5;
     text-align: left;
+    margin-left: 40px;
 }
 
 .hero .hero-text h1 {
